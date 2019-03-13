@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1552452097148" analysisTimestamp="1552452097163" release="">
+  <Project projectName="">
+    <Jar>C:\Users\Grace Wang\Downloads\Juliet_Test_Suite_v1.3_for_Java\Java\src\testcases\CWE89_SQL_Injection_s01.jar</Jar>
+  </Project>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_execute" start="27" end="229" sourcefile="CWE89_SQL_Injection__Environment_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_execute" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_execute" start="35" end="88" startBytecode="0" endBytecode="127" sourcefile="CWE89_SQL_Injection__Environment_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_execute" start="46" end="46" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__Environment_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_execute" start="27" end="229" sourcefile="CWE89_SQL_Injection__Environment_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_execute" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_execute" start="102" end="155" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__Environment_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_execute" start="113" end="113" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__Environment_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeQuery" start="27" end="247" sourcefile="CWE89_SQL_Injection__Environment_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeQuery" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeQuery" start="35" end="94" startBytecode="0" endBytecode="140" sourcefile="CWE89_SQL_Injection__Environment_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeQuery" start="47" end="47" startBytecode="49" endBytecode="49" sourcefile="CWE89_SQL_Injection__Environment_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeQuery" start="27" end="247" sourcefile="CWE89_SQL_Injection__Environment_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeQuery" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeQuery" start="108" end="167" startBytecode="0" endBytecode="139" sourcefile="CWE89_SQL_Injection__Environment_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeQuery" start="120" end="120" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__Environment_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeUpdate" start="27" end="208" sourcefile="CWE89_SQL_Injection__Environment_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeUpdate" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeUpdate" start="35" end="81" startBytecode="0" endBytecode="113" sourcefile="CWE89_SQL_Injection__Environment_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeUpdate" start="46" end="46" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__Environment_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeUpdate" start="27" end="208" sourcefile="CWE89_SQL_Injection__Environment_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeUpdate" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeUpdate" start="95" end="141" startBytecode="0" endBytecode="112" sourcefile="CWE89_SQL_Injection__Environment_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeUpdate" start="106" end="106" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__Environment_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_prepareStatement" start="27" end="229" sourcefile="CWE89_SQL_Injection__Environment_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_prepareStatement" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_prepareStatement" start="35" end="88" startBytecode="0" endBytecode="127" sourcefile="CWE89_SQL_Injection__Environment_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_prepareStatement" start="44" end="44" startBytecode="39" endBytecode="39" sourcefile="CWE89_SQL_Injection__Environment_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_prepareStatement" start="27" end="229" sourcefile="CWE89_SQL_Injection__Environment_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_prepareStatement" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_prepareStatement" start="102" end="155" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__Environment_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_prepareStatement" start="111" end="111" startBytecode="36" endBytecode="36" sourcefile="CWE89_SQL_Injection__Environment_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Environment_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" start="34" end="356" sourcefile="CWE89_SQL_Injection__File_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" start="40" end="155" startBytecode="0" endBytecode="266" sourcefile="CWE89_SQL_Injection__File_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_execute.java"/>
+    </Method>
+    <String value="C:\\data.txt" role="FILE_NAME"/>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" start="42" end="42" startBytecode="9" endBytecode="9" sourcefile="CWE89_SQL_Injection__File_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_execute.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" start="34" end="356" sourcefile="CWE89_SQL_Injection__File_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" name="goodB2G" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" start="229" end="345" startBytecode="0" endBytecode="261" sourcefile="CWE89_SQL_Injection__File_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_execute.java"/>
+    </Method>
+    <String value="C:\\data.txt" role="FILE_NAME"/>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" start="231" end="231" startBytecode="9" endBytecode="9" sourcefile="CWE89_SQL_Injection__File_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" start="34" end="356" sourcefile="CWE89_SQL_Injection__File_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" start="40" end="155" startBytecode="0" endBytecode="266" sourcefile="CWE89_SQL_Injection__File_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" start="113" end="113" startBytecode="371" endBytecode="371" sourcefile="CWE89_SQL_Injection__File_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" start="34" end="356" sourcefile="CWE89_SQL_Injection__File_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" start="169" end="222" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__File_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" start="180" end="180" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__File_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_execute.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" start="34" end="374" sourcefile="CWE89_SQL_Injection__File_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" start="40" end="161" startBytecode="0" endBytecode="279" sourcefile="CWE89_SQL_Injection__File_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeQuery.java"/>
+    </Method>
+    <String value="C:\\data.txt" role="FILE_NAME"/>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" start="42" end="42" startBytecode="9" endBytecode="9" sourcefile="CWE89_SQL_Injection__File_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" start="34" end="374" sourcefile="CWE89_SQL_Injection__File_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" name="goodB2G" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" start="241" end="363" startBytecode="0" endBytecode="274" sourcefile="CWE89_SQL_Injection__File_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeQuery.java"/>
+    </Method>
+    <String value="C:\\data.txt" role="FILE_NAME"/>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" start="243" end="243" startBytecode="9" endBytecode="9" sourcefile="CWE89_SQL_Injection__File_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" start="34" end="374" sourcefile="CWE89_SQL_Injection__File_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" start="40" end="161" startBytecode="0" endBytecode="279" sourcefile="CWE89_SQL_Injection__File_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" start="114" end="114" startBytecode="374" endBytecode="374" sourcefile="CWE89_SQL_Injection__File_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" start="34" end="374" sourcefile="CWE89_SQL_Injection__File_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" start="175" end="234" startBytecode="0" endBytecode="139" sourcefile="CWE89_SQL_Injection__File_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" start="187" end="187" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__File_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" start="34" end="335" sourcefile="CWE89_SQL_Injection__File_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" start="40" end="148" startBytecode="0" endBytecode="252" sourcefile="CWE89_SQL_Injection__File_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeUpdate.java"/>
+    </Method>
+    <String value="C:\\data.txt" role="FILE_NAME"/>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" start="42" end="42" startBytecode="9" endBytecode="9" sourcefile="CWE89_SQL_Injection__File_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" start="34" end="335" sourcefile="CWE89_SQL_Injection__File_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" name="goodB2G" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" start="215" end="324" startBytecode="0" endBytecode="247" sourcefile="CWE89_SQL_Injection__File_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeUpdate.java"/>
+    </Method>
+    <String value="C:\\data.txt" role="FILE_NAME"/>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" start="217" end="217" startBytecode="9" endBytecode="9" sourcefile="CWE89_SQL_Injection__File_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" start="34" end="335" sourcefile="CWE89_SQL_Injection__File_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" start="40" end="148" startBytecode="0" endBytecode="252" sourcefile="CWE89_SQL_Injection__File_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" start="113" end="113" startBytecode="371" endBytecode="371" sourcefile="CWE89_SQL_Injection__File_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" start="34" end="335" sourcefile="CWE89_SQL_Injection__File_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" start="162" end="208" startBytecode="0" endBytecode="112" sourcefile="CWE89_SQL_Injection__File_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" start="173" end="173" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__File_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" start="34" end="356" sourcefile="CWE89_SQL_Injection__File_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" start="40" end="155" startBytecode="0" endBytecode="266" sourcefile="CWE89_SQL_Injection__File_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_prepareStatement.java"/>
+    </Method>
+    <String value="C:\\data.txt" role="FILE_NAME"/>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" start="42" end="42" startBytecode="9" endBytecode="9" sourcefile="CWE89_SQL_Injection__File_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" start="34" end="356" sourcefile="CWE89_SQL_Injection__File_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" name="goodB2G" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" start="229" end="345" startBytecode="0" endBytecode="261" sourcefile="CWE89_SQL_Injection__File_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_prepareStatement.java"/>
+    </Method>
+    <String value="C:\\data.txt" role="FILE_NAME"/>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" start="231" end="231" startBytecode="9" endBytecode="9" sourcefile="CWE89_SQL_Injection__File_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" start="34" end="356" sourcefile="CWE89_SQL_Injection__File_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" start="40" end="155" startBytecode="0" endBytecode="266" sourcefile="CWE89_SQL_Injection__File_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" start="111" end="111" startBytecode="364" endBytecode="364" sourcefile="CWE89_SQL_Injection__File_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" start="34" end="356" sourcefile="CWE89_SQL_Injection__File_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" start="169" end="222" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__File_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" start="178" end="178" startBytecode="36" endBytecode="36" sourcefile="CWE89_SQL_Injection__File_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__File_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_execute" start="33" end="299" sourcefile="CWE89_SQL_Injection__PropertiesFile_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_execute" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_execute" start="39" end="126" startBytecode="0" endBytecode="188" sourcefile="CWE89_SQL_Injection__PropertiesFile_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_execute" start="84" end="84" startBytecode="179" endBytecode="179" sourcefile="CWE89_SQL_Injection__PropertiesFile_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_execute" start="33" end="299" sourcefile="CWE89_SQL_Injection__PropertiesFile_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_execute" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_execute" start="140" end="193" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__PropertiesFile_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_execute" start="151" end="151" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__PropertiesFile_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeQuery" start="33" end="317" sourcefile="CWE89_SQL_Injection__PropertiesFile_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeQuery" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeQuery" start="39" end="132" startBytecode="0" endBytecode="201" sourcefile="CWE89_SQL_Injection__PropertiesFile_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeQuery" start="85" end="85" startBytecode="182" endBytecode="182" sourcefile="CWE89_SQL_Injection__PropertiesFile_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeQuery" start="33" end="317" sourcefile="CWE89_SQL_Injection__PropertiesFile_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeQuery" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeQuery" start="146" end="205" startBytecode="0" endBytecode="139" sourcefile="CWE89_SQL_Injection__PropertiesFile_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeQuery" start="158" end="158" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__PropertiesFile_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeUpdate" start="33" end="278" sourcefile="CWE89_SQL_Injection__PropertiesFile_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeUpdate" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeUpdate" start="39" end="119" startBytecode="0" endBytecode="174" sourcefile="CWE89_SQL_Injection__PropertiesFile_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeUpdate" start="84" end="84" startBytecode="179" endBytecode="179" sourcefile="CWE89_SQL_Injection__PropertiesFile_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeUpdate" start="33" end="278" sourcefile="CWE89_SQL_Injection__PropertiesFile_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeUpdate" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeUpdate" start="133" end="179" startBytecode="0" endBytecode="112" sourcefile="CWE89_SQL_Injection__PropertiesFile_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeUpdate" start="144" end="144" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__PropertiesFile_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_prepareStatement" start="33" end="299" sourcefile="CWE89_SQL_Injection__PropertiesFile_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_prepareStatement" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_prepareStatement" start="39" end="126" startBytecode="0" endBytecode="188" sourcefile="CWE89_SQL_Injection__PropertiesFile_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_prepareStatement" start="82" end="82" startBytecode="172" endBytecode="172" sourcefile="CWE89_SQL_Injection__PropertiesFile_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_prepareStatement" start="33" end="299" sourcefile="CWE89_SQL_Injection__PropertiesFile_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_prepareStatement" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_prepareStatement" start="140" end="193" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__PropertiesFile_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_prepareStatement" start="149" end="149" startBytecode="36" endBytecode="36" sourcefile="CWE89_SQL_Injection__PropertiesFile_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__PropertiesFile_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_execute" start="27" end="229" sourcefile="CWE89_SQL_Injection__Property_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_execute" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_execute" start="35" end="88" startBytecode="0" endBytecode="127" sourcefile="CWE89_SQL_Injection__Property_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_execute" start="46" end="46" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__Property_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_execute" start="27" end="229" sourcefile="CWE89_SQL_Injection__Property_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_execute" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_execute" start="102" end="155" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__Property_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_execute" start="113" end="113" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__Property_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeQuery" start="27" end="247" sourcefile="CWE89_SQL_Injection__Property_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeQuery" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeQuery" start="35" end="94" startBytecode="0" endBytecode="140" sourcefile="CWE89_SQL_Injection__Property_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeQuery" start="47" end="47" startBytecode="49" endBytecode="49" sourcefile="CWE89_SQL_Injection__Property_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeQuery" start="27" end="247" sourcefile="CWE89_SQL_Injection__Property_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeQuery" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeQuery" start="108" end="167" startBytecode="0" endBytecode="139" sourcefile="CWE89_SQL_Injection__Property_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeQuery" start="120" end="120" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__Property_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeUpdate" start="27" end="208" sourcefile="CWE89_SQL_Injection__Property_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeUpdate" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeUpdate" start="35" end="81" startBytecode="0" endBytecode="113" sourcefile="CWE89_SQL_Injection__Property_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeUpdate" start="46" end="46" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__Property_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeUpdate" start="27" end="208" sourcefile="CWE89_SQL_Injection__Property_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeUpdate" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeUpdate" start="95" end="141" startBytecode="0" endBytecode="112" sourcefile="CWE89_SQL_Injection__Property_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeUpdate" start="106" end="106" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__Property_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_prepareStatement" start="27" end="229" sourcefile="CWE89_SQL_Injection__Property_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_prepareStatement" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_prepareStatement" start="35" end="88" startBytecode="0" endBytecode="127" sourcefile="CWE89_SQL_Injection__Property_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_prepareStatement" start="44" end="44" startBytecode="39" endBytecode="39" sourcefile="CWE89_SQL_Injection__Property_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_prepareStatement" start="27" end="229" sourcefile="CWE89_SQL_Injection__Property_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_prepareStatement" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_prepareStatement" start="102" end="155" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__Property_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_prepareStatement" start="111" end="111" startBytecode="36" endBytecode="36" sourcefile="CWE89_SQL_Injection__Property_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__Property_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_execute" start="34" end="330" sourcefile="CWE89_SQL_Injection__URLConnection_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_execute" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_execute" start="40" end="142" startBytecode="0" endBytecode="228" sourcefile="CWE89_SQL_Injection__URLConnection_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_execute" start="100" end="100" startBytecode="279" endBytecode="279" sourcefile="CWE89_SQL_Injection__URLConnection_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_execute" start="34" end="330" sourcefile="CWE89_SQL_Injection__URLConnection_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_execute" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_execute" start="156" end="209" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__URLConnection_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_execute" start="167" end="167" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__URLConnection_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeQuery" start="34" end="348" sourcefile="CWE89_SQL_Injection__URLConnection_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeQuery" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeQuery" start="40" end="148" startBytecode="0" endBytecode="241" sourcefile="CWE89_SQL_Injection__URLConnection_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeQuery" start="101" end="101" startBytecode="282" endBytecode="282" sourcefile="CWE89_SQL_Injection__URLConnection_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeQuery" start="34" end="348" sourcefile="CWE89_SQL_Injection__URLConnection_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeQuery" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeQuery" start="162" end="221" startBytecode="0" endBytecode="139" sourcefile="CWE89_SQL_Injection__URLConnection_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeQuery" start="174" end="174" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__URLConnection_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeUpdate" start="34" end="309" sourcefile="CWE89_SQL_Injection__URLConnection_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeUpdate" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeUpdate" start="40" end="135" startBytecode="0" endBytecode="214" sourcefile="CWE89_SQL_Injection__URLConnection_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeUpdate" start="100" end="100" startBytecode="279" endBytecode="279" sourcefile="CWE89_SQL_Injection__URLConnection_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeUpdate" start="34" end="309" sourcefile="CWE89_SQL_Injection__URLConnection_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeUpdate" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeUpdate" start="149" end="195" startBytecode="0" endBytecode="112" sourcefile="CWE89_SQL_Injection__URLConnection_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeUpdate" start="160" end="160" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__URLConnection_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_prepareStatement" start="34" end="330" sourcefile="CWE89_SQL_Injection__URLConnection_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_prepareStatement" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_prepareStatement" start="40" end="142" startBytecode="0" endBytecode="228" sourcefile="CWE89_SQL_Injection__URLConnection_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_prepareStatement" start="98" end="98" startBytecode="272" endBytecode="272" sourcefile="CWE89_SQL_Injection__URLConnection_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_prepareStatement" start="34" end="330" sourcefile="CWE89_SQL_Injection__URLConnection_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_prepareStatement" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_prepareStatement" start="156" end="209" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__URLConnection_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_prepareStatement" start="165" end="165" startBytecode="36" endBytecode="36" sourcefile="CWE89_SQL_Injection__URLConnection_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__URLConnection_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_execute" start="33" end="361" sourcefile="CWE89_SQL_Injection__connect_tcp_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_execute" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_execute" start="39" end="157" startBytecode="0" endBytecode="263" sourcefile="CWE89_SQL_Injection__connect_tcp_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_execute" start="115" end="115" startBytecode="358" endBytecode="358" sourcefile="CWE89_SQL_Injection__connect_tcp_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_execute" start="33" end="361" sourcefile="CWE89_SQL_Injection__connect_tcp_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_execute" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_execute" start="171" end="224" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__connect_tcp_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_execute" start="182" end="182" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__connect_tcp_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeQuery" start="33" end="379" sourcefile="CWE89_SQL_Injection__connect_tcp_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeQuery" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeQuery" start="39" end="163" startBytecode="0" endBytecode="276" sourcefile="CWE89_SQL_Injection__connect_tcp_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeQuery" start="116" end="116" startBytecode="361" endBytecode="361" sourcefile="CWE89_SQL_Injection__connect_tcp_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeQuery" start="33" end="379" sourcefile="CWE89_SQL_Injection__connect_tcp_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeQuery" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeQuery" start="177" end="236" startBytecode="0" endBytecode="139" sourcefile="CWE89_SQL_Injection__connect_tcp_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeQuery" start="189" end="189" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__connect_tcp_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeUpdate" start="33" end="340" sourcefile="CWE89_SQL_Injection__connect_tcp_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeUpdate" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeUpdate" start="39" end="150" startBytecode="0" endBytecode="249" sourcefile="CWE89_SQL_Injection__connect_tcp_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeUpdate" start="115" end="115" startBytecode="358" endBytecode="358" sourcefile="CWE89_SQL_Injection__connect_tcp_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeUpdate" start="33" end="340" sourcefile="CWE89_SQL_Injection__connect_tcp_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeUpdate" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeUpdate" start="164" end="210" startBytecode="0" endBytecode="112" sourcefile="CWE89_SQL_Injection__connect_tcp_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeUpdate" start="175" end="175" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__connect_tcp_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_prepareStatement" start="33" end="361" sourcefile="CWE89_SQL_Injection__connect_tcp_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_prepareStatement" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_prepareStatement" start="39" end="157" startBytecode="0" endBytecode="263" sourcefile="CWE89_SQL_Injection__connect_tcp_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_prepareStatement" start="113" end="113" startBytecode="351" endBytecode="351" sourcefile="CWE89_SQL_Injection__connect_tcp_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_prepareStatement" start="33" end="361" sourcefile="CWE89_SQL_Injection__connect_tcp_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_prepareStatement" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_prepareStatement" start="171" end="224" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__connect_tcp_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_prepareStatement" start="180" end="180" startBytecode="36" endBytecode="36" sourcefile="CWE89_SQL_Injection__connect_tcp_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__connect_tcp_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_execute" start="32" end="322" sourcefile="CWE89_SQL_Injection__console_readLine_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_execute" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_execute" start="38" end="137" startBytecode="0" endBytecode="221" sourcefile="CWE89_SQL_Injection__console_readLine_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_execute" start="95" end="95" startBytecode="256" endBytecode="256" sourcefile="CWE89_SQL_Injection__console_readLine_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_execute" start="32" end="322" sourcefile="CWE89_SQL_Injection__console_readLine_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_execute" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_execute" start="151" end="204" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__console_readLine_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_execute" start="162" end="162" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__console_readLine_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeQuery" start="32" end="340" sourcefile="CWE89_SQL_Injection__console_readLine_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeQuery" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeQuery" start="38" end="143" startBytecode="0" endBytecode="234" sourcefile="CWE89_SQL_Injection__console_readLine_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeQuery" start="96" end="96" startBytecode="259" endBytecode="259" sourcefile="CWE89_SQL_Injection__console_readLine_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeQuery" start="32" end="340" sourcefile="CWE89_SQL_Injection__console_readLine_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeQuery" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeQuery" start="157" end="216" startBytecode="0" endBytecode="139" sourcefile="CWE89_SQL_Injection__console_readLine_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeQuery" start="169" end="169" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__console_readLine_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeUpdate" start="32" end="301" sourcefile="CWE89_SQL_Injection__console_readLine_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeUpdate" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeUpdate" start="38" end="130" startBytecode="0" endBytecode="207" sourcefile="CWE89_SQL_Injection__console_readLine_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeUpdate" start="95" end="95" startBytecode="256" endBytecode="256" sourcefile="CWE89_SQL_Injection__console_readLine_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeUpdate" start="32" end="301" sourcefile="CWE89_SQL_Injection__console_readLine_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeUpdate" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeUpdate" start="144" end="190" startBytecode="0" endBytecode="112" sourcefile="CWE89_SQL_Injection__console_readLine_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeUpdate" start="155" end="155" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__console_readLine_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_prepareStatement" start="32" end="322" sourcefile="CWE89_SQL_Injection__console_readLine_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_prepareStatement" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_prepareStatement" start="38" end="137" startBytecode="0" endBytecode="221" sourcefile="CWE89_SQL_Injection__console_readLine_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_prepareStatement" start="93" end="93" startBytecode="249" endBytecode="249" sourcefile="CWE89_SQL_Injection__console_readLine_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_prepareStatement" start="32" end="322" sourcefile="CWE89_SQL_Injection__console_readLine_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_prepareStatement" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_prepareStatement" start="151" end="204" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__console_readLine_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_prepareStatement" start="160" end="160" startBytecode="36" endBytecode="36" sourcefile="CWE89_SQL_Injection__console_readLine_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__console_readLine_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_execute" start="33" end="357" sourcefile="CWE89_SQL_Injection__database_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_execute" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_execute" start="39" end="155" startBytecode="0" endBytecode="255" sourcefile="CWE89_SQL_Injection__database_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_execute" start="113" end="113" startBytecode="364" endBytecode="364" sourcefile="CWE89_SQL_Injection__database_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_execute" start="33" end="357" sourcefile="CWE89_SQL_Injection__database_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_execute" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_execute" start="169" end="222" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__database_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_execute" start="180" end="180" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__database_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeQuery" start="33" end="375" sourcefile="CWE89_SQL_Injection__database_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeQuery" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeQuery" start="39" end="161" startBytecode="0" endBytecode="268" sourcefile="CWE89_SQL_Injection__database_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeQuery" start="114" end="114" startBytecode="367" endBytecode="367" sourcefile="CWE89_SQL_Injection__database_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeQuery" start="33" end="375" sourcefile="CWE89_SQL_Injection__database_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeQuery" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeQuery" start="175" end="234" startBytecode="0" endBytecode="139" sourcefile="CWE89_SQL_Injection__database_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeQuery" start="187" end="187" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__database_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeUpdate" start="33" end="336" sourcefile="CWE89_SQL_Injection__database_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeUpdate" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeUpdate" start="39" end="148" startBytecode="0" endBytecode="241" sourcefile="CWE89_SQL_Injection__database_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeUpdate" start="113" end="113" startBytecode="364" endBytecode="364" sourcefile="CWE89_SQL_Injection__database_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeUpdate" start="33" end="336" sourcefile="CWE89_SQL_Injection__database_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeUpdate" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeUpdate" start="162" end="208" startBytecode="0" endBytecode="112" sourcefile="CWE89_SQL_Injection__database_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeUpdate" start="173" end="173" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__database_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_prepareStatement" start="33" end="357" sourcefile="CWE89_SQL_Injection__database_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_prepareStatement" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_prepareStatement" start="39" end="155" startBytecode="0" endBytecode="255" sourcefile="CWE89_SQL_Injection__database_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_prepareStatement" start="111" end="111" startBytecode="357" endBytecode="357" sourcefile="CWE89_SQL_Injection__database_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_prepareStatement" start="33" end="357" sourcefile="CWE89_SQL_Injection__database_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_prepareStatement" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_prepareStatement" start="169" end="222" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__database_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_prepareStatement" start="178" end="178" startBytecode="36" endBytecode="36" sourcefile="CWE89_SQL_Injection__database_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__database_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_execute" start="34" end="390" sourcefile="CWE89_SQL_Injection__listen_tcp_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_execute" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_execute" start="40" end="172" startBytecode="0" endBytecode="300" sourcefile="CWE89_SQL_Injection__listen_tcp_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_execute" start="130" end="130" startBytecode="450" endBytecode="450" sourcefile="CWE89_SQL_Injection__listen_tcp_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_execute">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_execute" start="34" end="390" sourcefile="CWE89_SQL_Injection__listen_tcp_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_execute.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_execute" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_execute" start="186" end="239" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__listen_tcp_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_execute.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_execute" start="197" end="197" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__listen_tcp_execute.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_execute.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeQuery" start="34" end="408" sourcefile="CWE89_SQL_Injection__listen_tcp_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeQuery" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeQuery" start="40" end="178" startBytecode="0" endBytecode="313" sourcefile="CWE89_SQL_Injection__listen_tcp_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeQuery" start="131" end="131" startBytecode="453" endBytecode="453" sourcefile="CWE89_SQL_Injection__listen_tcp_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeQuery">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeQuery" start="34" end="408" sourcefile="CWE89_SQL_Injection__listen_tcp_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_executeQuery.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeQuery" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeQuery" start="192" end="251" startBytecode="0" endBytecode="139" sourcefile="CWE89_SQL_Injection__listen_tcp_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_executeQuery.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeQuery" start="204" end="204" startBytecode="46" endBytecode="46" sourcefile="CWE89_SQL_Injection__listen_tcp_executeQuery.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_executeQuery.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeUpdate" start="34" end="369" sourcefile="CWE89_SQL_Injection__listen_tcp_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeUpdate" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeUpdate" start="40" end="165" startBytecode="0" endBytecode="286" sourcefile="CWE89_SQL_Injection__listen_tcp_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeUpdate" start="130" end="130" startBytecode="450" endBytecode="450" sourcefile="CWE89_SQL_Injection__listen_tcp_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeUpdate">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeUpdate" start="34" end="369" sourcefile="CWE89_SQL_Injection__listen_tcp_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_executeUpdate.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeUpdate" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeUpdate" start="179" end="225" startBytecode="0" endBytecode="112" sourcefile="CWE89_SQL_Injection__listen_tcp_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_executeUpdate.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeUpdate" start="190" end="190" startBytecode="43" endBytecode="43" sourcefile="CWE89_SQL_Injection__listen_tcp_executeUpdate.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_executeUpdate.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="1" rank="10" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_prepareStatement" start="34" end="390" sourcefile="CWE89_SQL_Injection__listen_tcp_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_prepareStatement" name="bad" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_prepareStatement" start="40" end="172" startBytecode="0" endBytecode="300" sourcefile="CWE89_SQL_Injection__listen_tcp_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_prepareStatement" start="128" end="128" startBytecode="443" endBytecode="443" sourcefile="CWE89_SQL_Injection__listen_tcp_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING" priority="2" rank="12" abbrev="SQL" category="SECURITY">
+    <Class classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_prepareStatement">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_prepareStatement" start="34" end="390" sourcefile="CWE89_SQL_Injection__listen_tcp_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_prepareStatement.java"/>
+    </Class>
+    <Method classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_prepareStatement" name="goodG2B" signature="()V" isStatic="false">
+      <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_prepareStatement" start="186" end="239" startBytecode="0" endBytecode="126" sourcefile="CWE89_SQL_Injection__listen_tcp_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_prepareStatement.java"/>
+    </Method>
+    <SourceLine classname="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_prepareStatement" start="195" end="195" startBytecode="36" endBytecode="36" sourcefile="CWE89_SQL_Injection__listen_tcp_prepareStatement.java" sourcepath="testcases/CWE89_SQL_Injection/s01/CWE89_SQL_Injection__listen_tcp_prepareStatement.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UwF" category="STYLE">
+    <Class classname="testcasesupport.AbstractTestCaseClassIssue">
+      <SourceLine classname="testcasesupport.AbstractTestCaseClassIssue" start="10" end="63" sourcefile="AbstractTestCaseClassIssue.java" sourcepath="testcasesupport/AbstractTestCaseClassIssue.java"/>
+    </Class>
+    <Field classname="testcasesupport.AbstractTestCaseClassIssue" name="badObject" signature="Ltestcasesupport/AbstractTestCaseClassIssueBad;" isStatic="false">
+      <SourceLine classname="testcasesupport.AbstractTestCaseClassIssue" sourcefile="AbstractTestCaseClassIssue.java" sourcepath="testcasesupport/AbstractTestCaseClassIssue.java"/>
+    </Field>
+    <SourceLine classname="testcasesupport.AbstractTestCaseClassIssue" start="44" end="44" startBytecode="152" endBytecode="152" sourcefile="AbstractTestCaseClassIssue.java" sourcepath="testcasesupport/AbstractTestCaseClassIssue.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UwF" category="STYLE">
+    <Class classname="testcasesupport.AbstractTestCaseClassIssue">
+      <SourceLine classname="testcasesupport.AbstractTestCaseClassIssue" start="10" end="63" sourcefile="AbstractTestCaseClassIssue.java" sourcepath="testcasesupport/AbstractTestCaseClassIssue.java"/>
+    </Class>
+    <Field classname="testcasesupport.AbstractTestCaseClassIssue" name="good1Object" signature="Ltestcasesupport/AbstractTestCaseClassIssueGood;" isStatic="false">
+      <SourceLine classname="testcasesupport.AbstractTestCaseClassIssue" sourcefile="AbstractTestCaseClassIssue.java" sourcepath="testcasesupport/AbstractTestCaseClassIssue.java"/>
+    </Field>
+    <SourceLine classname="testcasesupport.AbstractTestCaseClassIssue" start="22" end="22" startBytecode="23" endBytecode="23" sourcefile="AbstractTestCaseClassIssue.java" sourcepath="testcasesupport/AbstractTestCaseClassIssue.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_EMPTY_DB_PASSWORD" priority="2" rank="7" abbrev="Dm" category="SECURITY">
+    <Class classname="testcasesupport.IO">
+      <SourceLine classname="testcasesupport.IO" start="13" end="120" sourcefile="IO.java" sourcepath="testcasesupport/IO.java"/>
+    </Class>
+    <Method classname="testcasesupport.IO" name="getDBConnection" signature="()Ljava/sql/Connection;" isStatic="true">
+      <SourceLine classname="testcasesupport.IO" start="70" end="70" startBytecode="0" endBytecode="4" sourcefile="IO.java" sourcepath="testcasesupport/IO.java"/>
+    </Method>
+    <SourceLine classname="testcasesupport.IO" start="70" end="70" startBytecode="6" endBytecode="6" sourcefile="IO.java" sourcepath="testcasesupport/IO.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_RANDOM_USED_ONLY_ONCE" priority="1" rank="14" abbrev="DMI" category="BAD_PRACTICE">
+    <Class classname="testcasesupport.IO">
+      <SourceLine classname="testcasesupport.IO" start="13" end="120" sourcefile="IO.java" sourcepath="testcasesupport/IO.java"/>
+    </Class>
+    <Method classname="testcasesupport.IO" name="staticReturnsTrueOrFalse" signature="()Z" isStatic="true">
+      <SourceLine classname="testcasesupport.IO" start="100" end="100" startBytecode="0" endBytecode="34" sourcefile="IO.java" sourcepath="testcasesupport/IO.java"/>
+    </Method>
+    <Method classname="java.util.Random" name="nextBoolean" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Random" start="448" end="448" startBytecode="0" endBytecode="48" sourcefile="Random.java" sourcepath="java/util/Random.java"/>
+    </Method>
+    <SourceLine classname="testcasesupport.IO" start="100" end="100" startBytecode="7" endBytecode="7" sourcefile="IO.java" sourcepath="testcasesupport/IO.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="2">
+    <MissingClass>javax.servlet.http.HttpServlet</MissingClass>
+    <MissingClass>javax.servlet.http.HttpServletResponse</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Tue, 12 Mar 2019 21:41:37 -0700" total_classes="48" referenced_classes="95" total_bugs="84" total_size="4849" num_packages="2" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="25.30" clock_seconds="25.62" peak_mbytes="137.73" alloc_mbytes="494.94" gc_seconds="0.69" priority_2="47" priority_1="37">
+    <PackageStats package="testcases.CWE89_SQL_Injection.s01" total_bugs="80" total_types="38" total_size="4590" priority_2="44" priority_1="36">
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_execute" sourceFile="CWE89_SQL_Injection__Environment_execute.java" interface="false" size="86" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeQuery" sourceFile="CWE89_SQL_Injection__Environment_executeQuery.java" interface="false" size="98" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_executeUpdate" sourceFile="CWE89_SQL_Injection__Environment_executeUpdate.java" interface="false" size="80" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Environment_prepareStatement" sourceFile="CWE89_SQL_Injection__Environment_prepareStatement.java" interface="false" size="86" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_execute" sourceFile="CWE89_SQL_Injection__File_execute.java" interface="false" size="140" bugs="4" priority_2="3" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeQuery" sourceFile="CWE89_SQL_Injection__File_executeQuery.java" interface="false" size="152" bugs="4" priority_2="3" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_executeUpdate" sourceFile="CWE89_SQL_Injection__File_executeUpdate.java" interface="false" size="134" bugs="4" priority_2="3" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__File_prepareStatement" sourceFile="CWE89_SQL_Injection__File_prepareStatement.java" interface="false" size="140" bugs="4" priority_2="3" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_execute" sourceFile="CWE89_SQL_Injection__PropertiesFile_execute.java" interface="false" size="114" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeQuery" sourceFile="CWE89_SQL_Injection__PropertiesFile_executeQuery.java" interface="false" size="126" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_executeUpdate" sourceFile="CWE89_SQL_Injection__PropertiesFile_executeUpdate.java" interface="false" size="108" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__PropertiesFile_prepareStatement" sourceFile="CWE89_SQL_Injection__PropertiesFile_prepareStatement.java" interface="false" size="114" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_execute" sourceFile="CWE89_SQL_Injection__Property_execute.java" interface="false" size="86" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeQuery" sourceFile="CWE89_SQL_Injection__Property_executeQuery.java" interface="false" size="98" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_executeUpdate" sourceFile="CWE89_SQL_Injection__Property_executeUpdate.java" interface="false" size="80" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__Property_prepareStatement" sourceFile="CWE89_SQL_Injection__Property_prepareStatement.java" interface="false" size="86" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_execute" sourceFile="CWE89_SQL_Injection__URLConnection_execute.java" interface="false" size="126" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeQuery" sourceFile="CWE89_SQL_Injection__URLConnection_executeQuery.java" interface="false" size="138" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_executeUpdate" sourceFile="CWE89_SQL_Injection__URLConnection_executeUpdate.java" interface="false" size="120" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__URLConnection_prepareStatement" sourceFile="CWE89_SQL_Injection__URLConnection_prepareStatement.java" interface="false" size="126" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_execute" sourceFile="CWE89_SQL_Injection__connect_tcp_execute.java" interface="false" size="138" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeQuery" sourceFile="CWE89_SQL_Injection__connect_tcp_executeQuery.java" interface="false" size="150" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_executeUpdate" sourceFile="CWE89_SQL_Injection__connect_tcp_executeUpdate.java" interface="false" size="132" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__connect_tcp_prepareStatement" sourceFile="CWE89_SQL_Injection__connect_tcp_prepareStatement.java" interface="false" size="138" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_execute" sourceFile="CWE89_SQL_Injection__console_readLine_execute.java" interface="false" size="124" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeQuery" sourceFile="CWE89_SQL_Injection__console_readLine_executeQuery.java" interface="false" size="136" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_executeUpdate" sourceFile="CWE89_SQL_Injection__console_readLine_executeUpdate.java" interface="false" size="118" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__console_readLine_prepareStatement" sourceFile="CWE89_SQL_Injection__console_readLine_prepareStatement.java" interface="false" size="124" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_execute" sourceFile="CWE89_SQL_Injection__database_execute.java" interface="false" size="138" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeQuery" sourceFile="CWE89_SQL_Injection__database_executeQuery.java" interface="false" size="150" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_executeUpdate" sourceFile="CWE89_SQL_Injection__database_executeUpdate.java" interface="false" size="132" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__database_prepareStatement" sourceFile="CWE89_SQL_Injection__database_prepareStatement.java" interface="false" size="138" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_execute" sourceFile="CWE89_SQL_Injection__listen_tcp_execute.java" interface="false" size="152" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeQuery" sourceFile="CWE89_SQL_Injection__listen_tcp_executeQuery.java" interface="false" size="164" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_executeUpdate" sourceFile="CWE89_SQL_Injection__listen_tcp_executeUpdate.java" interface="false" size="146" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.CWE89_SQL_Injection__listen_tcp_prepareStatement" sourceFile="CWE89_SQL_Injection__listen_tcp_prepareStatement.java" interface="false" size="152" bugs="2" priority_2="1" priority_1="1"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.Main" sourceFile="Main.java" interface="false" size="84" bugs="0"/>
+      <ClassStats class="testcases.CWE89_SQL_Injection.s01.ServletMain" sourceFile="ServletMain.java" interface="false" size="36" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="testcasesupport" total_bugs="4" total_types="10" total_size="259" priority_2="3" priority_1="1">
+      <ClassStats class="testcasesupport.AbstractTestCase" sourceFile="AbstractTestCase.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseBadOnly" sourceFile="AbstractTestCaseBadOnly.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseBase" sourceFile="AbstractTestCaseBase.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseClassIssue" sourceFile="AbstractTestCaseClassIssue.java" interface="false" size="28" bugs="2" priority_2="2"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseClassIssueBad" sourceFile="AbstractTestCaseClassIssueBad.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseClassIssueGood" sourceFile="AbstractTestCaseClassIssueGood.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseServlet" sourceFile="AbstractTestCaseServlet.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseServletBadOnly" sourceFile="AbstractTestCaseServletBadOnly.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseServletBase" sourceFile="AbstractTestCaseServletBase.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="testcasesupport.IO" sourceFile="IO.java" interface="false" size="57" bugs="2" priority_2="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="3471" invocations="547" avgMicrosecondsPerInvocation="6346" maxMicrosecondsPerInvocation="731176" standardDeviationMicrosecondsPerInvocation="49931"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="2339" invocations="95" avgMicrosecondsPerInvocation="24621" maxMicrosecondsPerInvocation="366771" standardDeviationMicrosecondsPerInvocation="71514"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="1773" invocations="398" avgMicrosecondsPerInvocation="4455" maxMicrosecondsPerInvocation="328073" standardDeviationMicrosecondsPerInvocation="32365"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="1440" invocations="48" avgMicrosecondsPerInvocation="30010" maxMicrosecondsPerInvocation="986997" standardDeviationMicrosecondsPerInvocation="151236"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="1147" invocations="275" avgMicrosecondsPerInvocation="4171" maxMicrosecondsPerInvocation="258407" standardDeviationMicrosecondsPerInvocation="20597"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="1140" invocations="275" avgMicrosecondsPerInvocation="4147" maxMicrosecondsPerInvocation="457878" standardDeviationMicrosecondsPerInvocation="29180"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="1037" invocations="95" avgMicrosecondsPerInvocation="10920" maxMicrosecondsPerInvocation="329923" standardDeviationMicrosecondsPerInvocation="37406"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="972" invocations="383" avgMicrosecondsPerInvocation="2537" maxMicrosecondsPerInvocation="305675" standardDeviationMicrosecondsPerInvocation="18130"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="885" invocations="383" avgMicrosecondsPerInvocation="2312" maxMicrosecondsPerInvocation="147523" standardDeviationMicrosecondsPerInvocation="10274"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="760" invocations="48" avgMicrosecondsPerInvocation="15835" maxMicrosecondsPerInvocation="371352" standardDeviationMicrosecondsPerInvocation="63912"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="744" invocations="275" avgMicrosecondsPerInvocation="2707" maxMicrosecondsPerInvocation="209519" standardDeviationMicrosecondsPerInvocation="14809"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="725" invocations="95" avgMicrosecondsPerInvocation="7639" maxMicrosecondsPerInvocation="344803" standardDeviationMicrosecondsPerInvocation="45478"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="665" invocations="256" avgMicrosecondsPerInvocation="2598" maxMicrosecondsPerInvocation="372494" standardDeviationMicrosecondsPerInvocation="23730"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="550" invocations="242" avgMicrosecondsPerInvocation="2274" maxMicrosecondsPerInvocation="422017" standardDeviationMicrosecondsPerInvocation="27118"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="449" invocations="48" avgMicrosecondsPerInvocation="9369" maxMicrosecondsPerInvocation="232005" standardDeviationMicrosecondsPerInvocation="39210"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="406" invocations="275" avgMicrosecondsPerInvocation="1478" maxMicrosecondsPerInvocation="42852" standardDeviationMicrosecondsPerInvocation="4443"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="368" invocations="48" avgMicrosecondsPerInvocation="7676" maxMicrosecondsPerInvocation="181207" standardDeviationMicrosecondsPerInvocation="26411"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

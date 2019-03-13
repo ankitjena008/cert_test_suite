@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.12" sequence="0" timestamp="1552457797112" analysisTimestamp="1552457797127" release="">
+  <Project projectName="">
+    <Jar>C:\Users\Grace Wang\Downloads\Juliet_Test_Suite_v1.3_for_Java\Java\src\testcases\CWE327_Use_Broken_Crypto.jar</Jar>
+  </Project>
+  <BugInstance type="UWF_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UwF" category="STYLE">
+    <Class classname="testcasesupport.AbstractTestCaseClassIssue">
+      <SourceLine classname="testcasesupport.AbstractTestCaseClassIssue" start="10" end="63" sourcefile="AbstractTestCaseClassIssue.java" sourcepath="testcasesupport/AbstractTestCaseClassIssue.java"/>
+    </Class>
+    <Field classname="testcasesupport.AbstractTestCaseClassIssue" name="badObject" signature="Ltestcasesupport/AbstractTestCaseClassIssueBad;" isStatic="false">
+      <SourceLine classname="testcasesupport.AbstractTestCaseClassIssue" sourcefile="AbstractTestCaseClassIssue.java" sourcepath="testcasesupport/AbstractTestCaseClassIssue.java"/>
+    </Field>
+    <SourceLine classname="testcasesupport.AbstractTestCaseClassIssue" start="44" end="44" startBytecode="152" endBytecode="152" sourcefile="AbstractTestCaseClassIssue.java" sourcepath="testcasesupport/AbstractTestCaseClassIssue.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD" priority="2" rank="17" abbrev="UwF" category="STYLE">
+    <Class classname="testcasesupport.AbstractTestCaseClassIssue">
+      <SourceLine classname="testcasesupport.AbstractTestCaseClassIssue" start="10" end="63" sourcefile="AbstractTestCaseClassIssue.java" sourcepath="testcasesupport/AbstractTestCaseClassIssue.java"/>
+    </Class>
+    <Field classname="testcasesupport.AbstractTestCaseClassIssue" name="good1Object" signature="Ltestcasesupport/AbstractTestCaseClassIssueGood;" isStatic="false">
+      <SourceLine classname="testcasesupport.AbstractTestCaseClassIssue" sourcefile="AbstractTestCaseClassIssue.java" sourcepath="testcasesupport/AbstractTestCaseClassIssue.java"/>
+    </Field>
+    <SourceLine classname="testcasesupport.AbstractTestCaseClassIssue" start="22" end="22" startBytecode="23" endBytecode="23" sourcefile="AbstractTestCaseClassIssue.java" sourcepath="testcasesupport/AbstractTestCaseClassIssue.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_EMPTY_DB_PASSWORD" priority="2" rank="7" abbrev="Dm" category="SECURITY">
+    <Class classname="testcasesupport.IO">
+      <SourceLine classname="testcasesupport.IO" start="13" end="120" sourcefile="IO.java" sourcepath="testcasesupport/IO.java"/>
+    </Class>
+    <Method classname="testcasesupport.IO" name="getDBConnection" signature="()Ljava/sql/Connection;" isStatic="true">
+      <SourceLine classname="testcasesupport.IO" start="70" end="70" startBytecode="0" endBytecode="4" sourcefile="IO.java" sourcepath="testcasesupport/IO.java"/>
+    </Method>
+    <SourceLine classname="testcasesupport.IO" start="70" end="70" startBytecode="6" endBytecode="6" sourcefile="IO.java" sourcepath="testcasesupport/IO.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_RANDOM_USED_ONLY_ONCE" priority="1" rank="14" abbrev="DMI" category="BAD_PRACTICE">
+    <Class classname="testcasesupport.IO">
+      <SourceLine classname="testcasesupport.IO" start="13" end="120" sourcefile="IO.java" sourcepath="testcasesupport/IO.java"/>
+    </Class>
+    <Method classname="testcasesupport.IO" name="staticReturnsTrueOrFalse" signature="()Z" isStatic="true">
+      <SourceLine classname="testcasesupport.IO" start="100" end="100" startBytecode="0" endBytecode="34" sourcefile="IO.java" sourcepath="testcasesupport/IO.java"/>
+    </Method>
+    <Method classname="java.util.Random" name="nextBoolean" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Random" start="448" end="448" startBytecode="0" endBytecode="48" sourcefile="Random.java" sourcepath="java/util/Random.java"/>
+    </Method>
+    <SourceLine classname="testcasesupport.IO" start="100" end="100" startBytecode="7" endBytecode="7" sourcefile="IO.java" sourcepath="testcasesupport/IO.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="2">
+    <MissingClass>javax.servlet.http.HttpServlet</MissingClass>
+    <MissingClass>javax.servlet.http.HttpServletResponse</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Tue, 12 Mar 2019 23:16:37 -0700" total_classes="14" referenced_classes="50" total_bugs="4" total_size="411" num_packages="2" java_version="1.8.0_201" vm_version="25.201-b09" cpu_seconds="12.26" clock_seconds="12.37" peak_mbytes="80.27" alloc_mbytes="494.94" gc_seconds="0.14" priority_2="3" priority_1="1">
+    <PackageStats package="testcases.CWE327_Use_Broken_Crypto" total_bugs="0" total_types="4" total_size="152">
+      <ClassStats class="testcases.CWE327_Use_Broken_Crypto.CWE327_Use_Broken_Crypto__3DES" sourceFile="CWE327_Use_Broken_Crypto__3DES.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="testcases.CWE327_Use_Broken_Crypto.CWE327_Use_Broken_Crypto__DES" sourceFile="CWE327_Use_Broken_Crypto__DES.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="testcases.CWE327_Use_Broken_Crypto.Main" sourceFile="Main.java" interface="false" size="50" bugs="0"/>
+      <ClassStats class="testcases.CWE327_Use_Broken_Crypto.ServletMain" sourceFile="ServletMain.java" interface="false" size="36" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="testcasesupport" total_bugs="4" total_types="10" total_size="259" priority_2="3" priority_1="1">
+      <ClassStats class="testcasesupport.AbstractTestCase" sourceFile="AbstractTestCase.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseBadOnly" sourceFile="AbstractTestCaseBadOnly.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseBase" sourceFile="AbstractTestCaseBase.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseClassIssue" sourceFile="AbstractTestCaseClassIssue.java" interface="false" size="28" bugs="2" priority_2="2"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseClassIssueBad" sourceFile="AbstractTestCaseClassIssueBad.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseClassIssueGood" sourceFile="AbstractTestCaseClassIssueGood.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseServlet" sourceFile="AbstractTestCaseServlet.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseServletBadOnly" sourceFile="AbstractTestCaseServletBadOnly.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="testcasesupport.AbstractTestCaseServletBase" sourceFile="AbstractTestCaseServletBase.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="testcasesupport.IO" sourceFile="IO.java" interface="false" size="57" bugs="2" priority_2="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="1711" invocations="50" avgMicrosecondsPerInvocation="34231" maxMicrosecondsPerInvocation="516970" standardDeviationMicrosecondsPerInvocation="112793"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1591" invocations="470" avgMicrosecondsPerInvocation="3386" maxMicrosecondsPerInvocation="503112" standardDeviationMicrosecondsPerInvocation="31849"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="1395" invocations="50" avgMicrosecondsPerInvocation="27913" maxMicrosecondsPerInvocation="399871" standardDeviationMicrosecondsPerInvocation="78645"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="911" invocations="175" avgMicrosecondsPerInvocation="5208" maxMicrosecondsPerInvocation="330114" standardDeviationMicrosecondsPerInvocation="28268"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="522" invocations="50" avgMicrosecondsPerInvocation="10442" maxMicrosecondsPerInvocation="389479" standardDeviationMicrosecondsPerInvocation="54710"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="516" invocations="50" avgMicrosecondsPerInvocation="10336" maxMicrosecondsPerInvocation="170000" standardDeviationMicrosecondsPerInvocation="35436"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="462" invocations="69" avgMicrosecondsPerInvocation="6706" maxMicrosecondsPerInvocation="194043" standardDeviationMicrosecondsPerInvocation="27382"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="440" invocations="69" avgMicrosecondsPerInvocation="6385" maxMicrosecondsPerInvocation="257456" standardDeviationMicrosecondsPerInvocation="33150"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="419" invocations="14" avgMicrosecondsPerInvocation="29959" maxMicrosecondsPerInvocation="409456" standardDeviationMicrosecondsPerInvocation="105261"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteLoop" totalMilliseconds="413" invocations="14" avgMicrosecondsPerInvocation="29505" maxMicrosecondsPerInvocation="411380" standardDeviationMicrosecondsPerInvocation="105913"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="286" invocations="69" avgMicrosecondsPerInvocation="4153" maxMicrosecondsPerInvocation="126185" standardDeviationMicrosecondsPerInvocation="17152"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="244" invocations="50" avgMicrosecondsPerInvocation="4886" maxMicrosecondsPerInvocation="97953" standardDeviationMicrosecondsPerInvocation="18073"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

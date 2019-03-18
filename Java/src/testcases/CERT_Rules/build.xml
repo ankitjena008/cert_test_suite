@@ -17,6 +17,7 @@
   <property name="commons-lang.jar" location="../../../lib/commons-lang-2.5.jar"/>
   <property name="commons-codec.jar" location="../../../lib/commons-codec-1.5.jar"/>
   <property name="javamail.jar" location="../../../lib/javamail-1.4.4.jar"/>
+   <!-- replace value with the path of your own spotbugs and apache-ant when testing -->
   <property name="spotbugs.home" value="/Users/Grace Wang/Downloads/spotbugs-3.1.12/spotbugs-3.1.12" />
   <property name="ant.home" value="/Users/Grace Wang/Downloads/apache-ant-1.10.5-bin/apache-ant-1.10.5" />
   <path id="project.classpath">

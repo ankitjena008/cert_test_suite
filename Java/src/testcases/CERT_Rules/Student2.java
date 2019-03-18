@@ -1,4 +1,4 @@
-/* Compliant serialization class */
+/* CERT_SER01: Compliant serialization class */
 package testcases.CERT_Rules;
 
 import java.io.*;

@@ -5,41 +5,29 @@
   </description>
 
   <!-- set global properties for this build -->
-  <property name="src" location="../../../"/>
+  <property name="src" location="../../"/>
   <property name="build" location="antbuild"/>
-  <property name="dist" location="antdist"/>
-  <basename property="parentdir.basename" file=".."/>
+  <property name="war" location="${basedir}.war"/>
+  <property name="jar" location="${basedir}.jar"/>
+  <property name="spotbugs_report" location="spotbugs_report.xml"/>
+  <property name="pmd_report" location="pmd_report.html"/>
   <basename property="basedir.basename" file="."/>
-  <property name="war" location="../../${parentdir.basename}_${basedir.basename}.war"/>
-  <property name="jar" location="../../${parentdir.basename}_${basedir.basename}.jar"/>
 
   <!-- Required libraries -->
-  <property name="servlet.jar" location="../../../../lib/servlet-api.jar"/>
-  <property name="commons-lang.jar" location="../../../../lib/commons-lang-2.5.jar"/>
-  <property name="commons-codec.jar" location="../../../../lib/commons-codec-1.5.jar"/>
-  <property name="javamail.jar" location="../../../../lib/javamail-1.4.4.jar"/>
-  <property name="spotbugs.home" value="/Users/Grace Wang/Downloads/spotbugs-3.1.12/spotbugs-3.1.12" />
-  <property name="ant.home" value="/Users/Grace Wang/Downloads/apache-ant-1.10.5-bin/apache-ant-1.10.5" />
+  <property name="servlet.jar" location="../../../lib/servlet-api.jar"/>
+  <property name="commons-lang.jar" location="../../../lib/commons-lang-2.5.jar"/>
+  <property name="commons-codec.jar" location="../../../lib/commons-codec-1.5.jar"/>
+  <property name="javamail.jar" location="../../../lib/javamail-1.4.4.jar"/>
+   <!-- replace value with the path of your own spotbugs and apache-ant when testing -->
+  <property name="spotbugs.home" value="/path/to/spotbugs" />
+  <property name="ant.home" value="/path/to/ant" />
   <path id="project.classpath">
     <pathelement location="${servlet.jar}"/>
-	  <pathelement location="${commons-lang.jar}"/>
-	  <pathelement location="${commons-codec.jar}"/>
-	  <pathelement location="${javamail.jar}"/>
-	  <pathelement location="${build}"/>
+    <pathelement location="${commons-lang.jar}"/>
+    <pathelement location="${commons-codec.jar}"/>
+    <pathelement location="${javamail.jar}"/>
+    <pathelement location="${build}"/>
   </path>
-   
-  <!-- incorporate sportbugs with ant -->
-  <!-- usage: ant spotbugs -->
-  <target name="spotbugs" depends="jar">
-    <taskdef 
-      resource="edu/umd/cs/findbugs/anttask/tasks.properties"
-      classpath="${ant.home}/lib/spotbugs-ant.jar" />
-    <spotbugs home="${spotbugs.home}"
-            output="xml"
-            outputFile="IDS00.xml" >
-      <class location="${jar}" />
-    </spotbugs>
-  </target>
    
   <target name="init">
     <!-- Create the time stamp -->
@@ -49,7 +37,7 @@
     <mkdir dir="${build}"/>
   </target>
 
-  <target name="compile" depends="init" description="compile the source">
+  <target name="compile" depends="init" description="compile the source " >
     <!-- Compile the support files first, other than the Mains -->
     <javac includeantruntime="false"
       srcdir="${src}"
@@ -60,10 +48,10 @@
       memoryinitialsize="1024m"
       memorymaximumsize="1024m"
       excludes="*Main.java"> <!--Don't use the Mains in testcasesupport -->
-      <classpath refid="project.classpath"/>
+		  <classpath refid="project.classpath"/>
       <include name="testcasesupport/*"/>
     </javac>
-	
+    
     <!-- Compile everything in this directory -->
     <javac includeantruntime="false"
       srcdir="${src}" 
@@ -74,15 +62,16 @@
       memoryinitialsize="1024m"
       memorymaximumsize="1024m"> 
       <classpath refid="project.classpath"/>
-      <include name="testcases/${parentdir.basename}/${basedir.basename}/*"/>
+      <include name="testcases/${basedir.basename}/*"/>
     </javac>
+
   </target>
 
   <target name="jar" depends="compile" description="generate a jar file" >
     <!-- Put everything in ${build} into the TestCases.jar file -->
     <jar jarfile="${jar}" basedir="${build}">
       <manifest>                                                                          
-        <attribute name="Main-Class" value="testcases.${parentdir.basename}.${basedir.basename}.Main"/>
+        <attribute name="Main-Class" value="testcases.${basedir.basename}.Main"/>
       </manifest>
     </jar>
   </target>
@@ -91,13 +80,15 @@
     <!-- Delete the ${build} directory tree -->
     <delete dir="${build}"/>
     <delete file="${war}"/>
-    <delete file="${jar}"/>
+	  <delete file="${jar}"/>
+    <delete file="${spotbugs_report}"/>
+    <delete file="${pmd_report}"/>
   </target>
   
   <target name="war" depends="compile">
     <war destfile="${war}" webxml="web.xml">
       <classes dir="${build}"/>
-      <fileset dir="../../../../WebContent">
+      <fileset dir="../../../WebContent">
         <exclude name="WEB-INF/web.xml"/>
       </fileset>
     </war>
@@ -106,11 +97,45 @@
   <target name="war_with_libs" depends="compile">
     <war destfile="${war}" webxml="web.xml">
       <classes dir="${build}"/>
-      <fileset dir="../../../../WebContent">
+      <fileset dir="../../../WebContent">
         <exclude name="WEB-INF/web.xml"/>
       </fileset>
-      <lib dir="../../../../lib" />
+      <lib dir="../../../lib" />
     </war>
-  </target>  
+  </target>
+
+  <!-- incorporate sportbugs with ant -->
+  <!-- usage: ant spotbugs -->
+  <target name="spotbugs" depends="jar">
+    <taskdef 
+      resource="edu/umd/cs/findbugs/anttask/tasks.properties"
+      classpath="${ant.home}/lib/spotbugs-ant.jar" />
+    <spotbugs home="${spotbugs.home}"
+            output="xml"
+            outputFile="spotbugs_report.xml" >
+    <class location="${jar}" />
+    </spotbugs>
+  </target>   
+
+  <!-- incorporate pmd with ant -->
+  <!-- usage: ant -v pmd -->
+  <target name="pmd">
+    <taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask">
+      <classpath>
+        <fileset dir="/path/to/pmd">
+          <include name="lib/*.jar" />
+        </fileset>
+      </classpath>
+    </taskdef>
+    <pmd shortFilenames="true" rulesetfiles="category/java/performance.xml,category/java/bestpractices.xml,category/java/security.xml,category/java/errorprone.xml">
+      <sourceLanguage name="java" version="1.6"/>
+      <formatter type="html" toFile="pmd_report.html" toConsole="true" />
+      <fileset dir="${basedir}">
+          <include name="**/*.java"/>
+      </fileset>
+    </pmd>
+  </target>
+
   
 </project>
+

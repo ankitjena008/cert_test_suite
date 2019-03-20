@@ -9,6 +9,8 @@
   <property name="build" location="antbuild"/>
   <property name="war" location="${basedir}.war"/>
   <property name="jar" location="${basedir}.jar"/>
+  <property name="spotbugs_report" location="spotbugs_report.xml"/>
+  <property name="pmd_report" location="pmd_report.html"/>
   <basename property="basedir.basename" file="."/>
 
   <!-- Required libraries -->
@@ -16,9 +18,9 @@
   <property name="commons-lang.jar" location="../../../lib/commons-lang-2.5.jar"/>
   <property name="commons-codec.jar" location="../../../lib/commons-codec-1.5.jar"/>
   <property name="javamail.jar" location="../../../lib/javamail-1.4.4.jar"/>
-  <!-- replace value with the path of your own spotbugs and apache-ant when testing -->
-  <property name="spotbugs.home" value="/Users/Grace Wang/Downloads/spotbugs-3.1.12/spotbugs-3.1.12" />
-  <property name="ant.home" value="/Users/Grace Wang/Downloads/apache-ant-1.10.5-bin/apache-ant-1.10.5" />
+   <!-- replace value with the path of your own spotbugs and apache-ant when testing -->
+  <property name="spotbugs.home" value="/path/to/spotbugs" />
+  <property name="ant.home" value="/path/to/ant" />
   <path id="project.classpath">
     <pathelement location="${servlet.jar}"/>
     <pathelement location="${commons-lang.jar}"/>
@@ -79,6 +81,8 @@
     <delete dir="${build}"/>
     <delete file="${war}"/>
 	  <delete file="${jar}"/>
+    <delete file="${spotbugs_report}"/>
+    <delete file="${pmd_report}"/>
   </target>
   
   <target name="war" depends="compile">
@@ -98,7 +102,7 @@
       </fileset>
       <lib dir="../../../lib" />
     </war>
-  </target> 
+  </target>
 
   <!-- incorporate sportbugs with ant -->
   <!-- usage: ant spotbugs -->
@@ -108,9 +112,30 @@
       classpath="${ant.home}/lib/spotbugs-ant.jar" />
     <spotbugs home="${spotbugs.home}"
             output="xml"
-            outputFile="SEC02.xml" >
-      <class location="${jar}" />
+            outputFile="spotbugs_report.xml" >
+    <class location="${jar}" />
     </spotbugs>
-  </target>    
+  </target>   
+
+  <!-- incorporate pmd with ant -->
+  <!-- usage: ant -v pmd -->
+  <target name="pmd">
+    <taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask">
+      <classpath>
+        <fileset dir="/path/to/pmd">
+          <include name="lib/*.jar" />
+        </fileset>
+      </classpath>
+    </taskdef>
+    <pmd shortFilenames="true" rulesetfiles="category/java/performance.xml,category/java/bestpractices.xml,category/java/security.xml,category/java/errorprone.xml">
+      <sourceLanguage name="java" version="1.6"/>
+      <formatter type="html" toFile="pmd_report.html" toConsole="true" />
+      <fileset dir="${basedir}">
+          <include name="**/*.java"/>
+      </fileset>
+    </pmd>
+  </target>
+
   
 </project>
+

@@ -1,5 +1,3 @@
-<!-- Ant build file template created for evaluating java analysis tools with cert java rules test suite -->
-<!-- change the path of the tools home directory and keep the build.xml in every directory for the purpose of testing -->
 
 <project name="error prone example" default="jar" basedir="." xmlns:unless="ant:unless">
   <basename property="basedir.basename" file="."/>
@@ -8,7 +6,7 @@
   <property name="jar" location="${build}/${basedir.basename}.jar"/>
   
   <!-- Apache Ant and Java analysis tools home directory -->
-  <property name="ant.home" value="/path/to/ant" />
+  <property name="ant.home" value="/path/to/ant/1.10.5/libexec" />
   <property name="errorprone.home" value="/path/to/error-prone" />
   <property name="spotbugs.home" value="/path/to/spotbugs-3.1.12" />
   <property name="pmd.home" value="/path/to/pmd-bin-6.12.0" />
@@ -18,6 +16,7 @@
   <property name="pmd_report" location="pmd_report.html"/>
   <property name="infer" location="infer-out" />
  
+
   <target name="init">
     <!-- Create the time stamp -->
     <tstamp/>
@@ -39,6 +38,7 @@
   </target>
 
   <!-- incorporate error prone with ant -->
+  <!-- usage: ant compile_error_prone -->
   <target name="compile_error_prone" depends="init" description="compile source with error_prone">
     <property name="javac.jar" location="${errorprone.home}/javac-9+181-r4173-1.jar"/>
     <!-- using github.com/google/error-prone-javac is required when running on JDK 8 -->
@@ -91,7 +91,7 @@
         </fileset>
       </classpath>
     </taskdef>
-    <pmd shortFilenames="true" rulesetfiles="category/java/performance.xml,category/java/bestpractices.xml,category/java/security.xml,category/java/errorprone.xml">
+    <pmd shortFilenames="true" rulesetfiles="rulesets/internal/all-java.xml">
       <sourceLanguage name="java" version="1.7"/>
       <formatter type="html" toFile="pmd_report.html" toConsole="true" />
       <fileset dir="${basedir}">
@@ -108,8 +108,6 @@
     <delete file="${spotbugs_report}"/>
     <delete file="${pmd_report}"/>
   </target>
-
-
 
 </project>
 
